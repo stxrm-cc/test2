@@ -1,0 +1,66 @@
+<!--
+All materials published here are protected by copyright and are expressly prohibited 2020 @ pwned.xyz LLC
+-->
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <script language=javascript>
+      msg = " ✞ ";
+      msg = " pwned " + msg;position = 0;
+      function scrolltitle() {
+          document.title = msg.substring(position, msg.length) + msg.substring(0, position); position++;
+          if (position > msg.length) position = 0
+          window.setTimeout("scrolltitle()", 400);
+      }
+  scrolltitle();                
+      </script>
+    <link rel="icon" href="https://i.imgur.com/sP230Il.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/rain.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<audio loop id="music">
+		<source src="files/Akimatsuri.mp3" type="audio/mpeg">
+	</audio>
+  </head>
+  <body class="back-row-toggle splat-toggle">
+	<div class="rain front-row"></div>
+    <div id="homepage" class="middle">
+      <div id="terminal">
+        <div id="terminal-header">
+          <div>
+            <div id="controls">
+              <i class="fa fa-window-minimize" style="font-size: 8px;"></i>
+              <i class="fa fa-window-restore" style="font-size: 10px;"></i>
+              <i class="fa fa-times" style="font-size: 14px;"></i>
+            </div>
+			<div style="margin: 0 auto; width: 100px;">pwned.xyz</div>
+          </div>
+        </div>
+        <div id="content">
+			<noscript>
+				</br>
+				<div>
+				<span class="red">root@pwned.xyz</span>:<span class="blue">~</span># ./nojs.sh
+					<p>Please enable JavaScript to use this site.</p>
+				</div>
+			</noscript>
+		</div>
+      </div>
+      <span class="taille"></span>
+    </div>
+	<div id="copyright">
+		<script>
+			function Year(number) { return (number < 1000) ? number + 1900 : number; }
+			document.write('© '+Year(new Date().getYear())+' pwned - All Rights Reserved');
+		</script>
+	</div>
+    <script>var visits = 8567;var visitorIP = "";var visitorCountry = "";var visitorCountryCode = "";var lastCountry0 = "";var lastCountry1 = "";var lastCountry2 = "";var lastCountry3 = "";var lastCountry4 = "";var lastUpdate = "";var upTime = "";</script>    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/script.js?lastupdate=1580650877"></script>
+	<script src="js/rain.js"></script>
+	<script src="js/c.js"></script>
+	<script src="js/m.js"></script>
+  </body>
+</html>
