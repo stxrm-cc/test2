@@ -37,7 +37,7 @@ sMonth[11]="December";
 const commands = {
 	aboutme: {
 		cmd: 'aboutme',
-		res: 'Bio:<br># <span class="red">Coding:</span> HTML, CSS, JS, PHP, C++, Go.<br># <span class="red">Languages:</span><br><br>- English <span class="red">(Perfect)</span><br>- French <span class="red">(Almost perfect)</span><br>- Greek <span class="red">(Mother tongue)</span><br>- Swedish <span class="red">(Fluently)</span>'
+		res: 'Bio:<br># <span class="red">Coding:</span> HTML, CSS, JS, PHP, Python<br># <span class="red">Languages:</span><br><br>- English <span class="red">(Perfect)</span><br>- French <span class="red">(Almost perfect)</span><br>- Greek <span class="red">(Mother tongue)</span><br>- Swedish <span class="red">(Fluently)</span>'
 	},
 	links: {
 		cmd: 'links',
